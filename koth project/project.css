@@ -1,0 +1,101 @@
+body{
+    font-family: "Comfortaa", serif;
+
+}
+
+
+.header{
+    position: relative;
+    border: 1px black solid;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+.cirlcle{
+    background-color: rgb(21, 163, 199);
+    height: 900px;
+    width: 950px;
+    border-radius: 50%;
+    position: absolute;
+    right: -395px;
+    top: -80px;
+    z-index: 1;
+    
+
+}
+#button-r{
+    color: rgb(10, 135, 245);
+    background-color: rgb(252, 240, 250);
+    font-size: larger;
+    border-radius: 15px;
+    font-weight: 400% ;
+    font: bold;
+    box-shadow: 3px 3px  5px black;
+
+}
+.headername{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 10px;
+    padding: 0px 45px;
+}
+#name{
+    color: rgb(10, 135, 245);
+    font-size: 100px;
+}
+.form-floating{
+    box-shadow: 3px 3px 5px black;
+    border-radius: 25px;
+}
+#login-button{
+    background-color:rgb(10, 135, 245) ;
+    color: antiquewhite;
+    padding: 5px 25px;
+}
+.main-contant{
+    margin-left: 15vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .cirlcle{
+        height: 300px;
+        width: 300px;
+        background-color: black;
+        right: -150px;
+        top: -150px;
+    
+}
+#name{
+    color: black;
+
+}
+.main-contant-text{
+margin-left: -80px;
+}
+.form-floating{
+    
+    margin-left: -80px;
+
+}
+#login-button{
+     background-color: black;
+    color: antiquewhite;
+    box-shadow: 2px 2px 3px rgb(57, 4, 107) 107);
+}
+.headername{
+    color: black;
+    font-size: xx-large;
+    
+}
+#button-r{
+    font-size: medium;
+    color: black;
+}
+
+}
+
