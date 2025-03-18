@@ -66,10 +66,16 @@ body{
         height: 300px;
         width: 300px;
         background-color: black;
-        right: -150px;
+        right: -130px;
         top: -150px;
     
 }
+.headername{
+    position: ;
+    right: 4vh;
+    
+}
+
 #name{
     color: black;
 
