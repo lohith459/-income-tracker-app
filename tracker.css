@@ -1,0 +1,180 @@
+body{
+    font-family: "Noto Sans", serif;
+
+
+}
+.header{
+    background-color:  #0a87f5;
+    font-size: x-large;
+
+}
+.input-form{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px rgb(3, 86, 100);
+    margin-top: 15px;
+    padding: 25px 0px;
+}
+.form-floating{
+    margin-left: 20px;
+
+}
+.form-select {
+    margin-right: 40px;
+    margin-left: 20px;
+}
+#add-button{
+    background-color:  rgb(10, 135, 245);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: xx-large;
+    font-weight: 600px;
+    color: antiquewhite;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+.inputs{
+    width: 70%
+}
+.cards{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    height: 30vh;
+    margin-bottom: 10vh;
+}
+.cardxx{
+padding-top: 2%;
+padding-left: 3%;
+    background-color: rgb(11, 92, 158);
+    border-radius: 8px;
+    color: antiquewhite;
+}
+.card-body{
+    color:white;
+
+}   
+.transaction-table{
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 800;
+    box-shadow: 0px 4px 4px rgb(0,0,0,0.5);
+    padding: 0px;
+}
+#header-row{
+    background: #0a87f5;
+
+}#header-row th{
+    padding: 15px 10px;
+    color: antiquewhite;
+}
+.deletebutton ,deletebutton:hover
+{
+    background-color: red;
+    width: 25%;
+    height: 40%;
+    border-radius: 50%;
+}
+.about{
+    color: #0a87f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 4vh;
+    
+  
+}
+
+.heading{
+    color: #0a1308;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.header{
+    background-color: black;
+    color: antiquewhite;
+}
+.input-form{
+    box-shadow: 2px 2px 3px black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+#costtype{
+    margin-left: 10%;
+    margin-right: ;
+    width: 300px;
+    box-shadow: 2px 2px 3px black;
+}
+#add-button{
+    background-color:  rgb(22, 24, 26);
+    width: 70px;
+    height: 50px;
+    border-radius: 10%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    height: 35vh;
+    margin-bottom: 5vh;
+}
+.cardxx{
+    padding-top: 2%;
+    padding-left: 3%;
+        background-color: rgb(232, 245, 245);
+        border-radius: 8px;
+        color: rgb(19, 17, 17);
+        height: 40vh;
+        margin-bottom: 8px;
+        box-shadow: 3px 3px 4px rgb(31, 28, 30);
+        
+    }
+    .transaction-table{
+        width: 97%;
+        
+    }
+    #header-row{
+        background: #1e2f3f;
+        box-shadow: 3px 3px 3px black;
+        
+}
+    .deletebutton{
+        width: 10px;
+        height: 10px;
+        background-color: rgb(243, 240, 240);
+
+    }
+    .contact2{
+        padding-right: 30vh;
+    }
+
+
+}
